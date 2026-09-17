@@ -16,3 +16,7 @@ def hitung_harga_setelah_diskon(harga_awal, persen_diskon=10):
 def hitung_harga_setelah_diskon(harga_awal, persen_diskon=10):
     diskon = harga_awal * (persen_diskon / 100)
     return harga_awal - diskon
+
+
+def input_data_panen():
+    return {"nama_lahan": "Blok A", "berat_kg": 150}
