@@ -16,3 +16,5 @@ def hitung_harga_setelah_diskon(harga_awal, persen_diskon=10):
 def hitung_harga_setelah_diskon(harga_awal, persen_diskon=10):
     diskon = harga_awal * (persen_diskon / 100)
     return harga_awal - diskon
+def hitung_diskon(total_harga, diskon):
+    return total_harga - (total_harga * diskon)
